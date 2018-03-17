@@ -1,0 +1,37 @@
+#container {
+    align-content: center;
+    margin: 40px;
+}
+
+#intro{
+    align-content: center;
+    margin: 40px;
+    background: lightgreen;
+    text-align: center;
+}
+
+h1{
+    padding: 30px;
+}
+
+p{
+    padding: 10px;
+    background: lightyellow;
+    text-align: left;
+}
+
+#targ, #tot{
+    padding: 20px;
+    background: lightpink;
+}
+
+#score{
+    padding: 20px;
+    background: lightyellow;
+}
+
+#images{
+    margin: 0 auto;
+    width: 630px;
+    background: lightgrey;
+}
