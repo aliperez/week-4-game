@@ -7,6 +7,7 @@
     <title>Crystals Collector Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link href="https://fonts.googleapis.com/css?family=Amita|Berkshire+Swash|Fondamento|Handlee|Rancho" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
@@ -16,30 +17,36 @@
     <div id = "container">
         <div id = "intro">
             <h1>Welcome to the Amazing Crystals Collector Game!</h1>
-            <p>How to play:  <br><br> If you can make your score match the target number, you win! But go over, and you lose! <br><br> By clicking on each of the four crystals below you will add points to your total score.  You won't know how much each crystal is worth until you click on it.  <br><br> The target number and the value of each crystal will reset at the beginning of a new game.  <br><br>  Good luck!     
+            <h2>How to play:  </h2>
+            <p><br>If you can make your score match the target number, you win! But go over, and you lose! <br><br> By clicking on each of the four crystals below you will add points to your total score.  You won't know how much each crystal is worth until you click on it.  <br><br> The target number and the value of each crystal will reset at the beginning of a new game.   
             </p>
         </div>
-        <div id="targ">
-            <h2>Target Number:</h2>
-            <div id = "target"></div>
-        </div>
-        <div id="score">
-            <h3>Wins:
-                <div id="wins"></div>
-            </h3>
-            <h3>Losses:
-                <div id="losses"></div>
-            </h3>
+        <div id="allScores">
+            <div id="targ">
+                <h3>Target Number:</h3>
+                <br>
+                <div id = "target"></div>
+            </div>
+            <div id="score">
+                <h3>Wins:
+                    <div id="wins"></div>
+                </h3>
+                <br>
+                <h3>Losses:
+                    <div id="losses"></div>
+                </h3>
+            </div>
+            <div id="tot">
+                <h3>Your Total Score:</h3>
+                <br>
+                <div id = "yourScore"></div>
+            </div>
         </div>
         <div id="images">
             <img id="first-gem" src="assets/images/gem-1.jpg" alt="first gem">
             <img id="second-gem" src="assets/images/gem-2.jpg" alt="second gem">
             <img id="third-gem" src="assets/images/gem-3.jpg" alt="third gem">
             <img id="fourth-gem" src="assets/images/gem-4.jpg" alt="fourth gem">
-        </div>
-        <div id="tot">
-            <h2>Your Total Score:</h2>
-            <div id = "yourScore"></div>
         </div>
     </div>
 

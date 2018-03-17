@@ -1,3 +1,8 @@
+body{
+    background-image: url("../images/background.jpg");
+    background-size: 100%;
+}
+
 #container {
     align-content: center;
     margin: 40px;
@@ -5,33 +10,80 @@
 
 #intro{
     align-content: center;
-    margin: 40px;
-    background: lightgreen;
+    margin: 0 auto;
+    background: black;
+    color: white;
     text-align: center;
+    width: 800px;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-family: 'Amita', cursive;
+    border: 2px solid white;
 }
 
 h1{
-    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 36pt;
+}
+
+h2{
+    text-align: left;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 p{
-    padding: 10px;
-    background: lightyellow;
     text-align: left;
+    font-size: 16px;
+    line-height: 20px;
 }
+
+#allScores{
+    width: 764px;
+    margin: 0 auto;
+    font-family: 'Fondamento', cursive;
+    font-size: 18px;
+}
+
+
 
 #targ, #tot{
     padding: 20px;
-    background: lightpink;
+    background: black;
+    color: white;
+    float: left;
+    margin: 30px;
+    width: 150px;
+    text-align: center;
+    border: 2px solid white;
 }
 
 #score{
     padding: 20px;
-    background: lightyellow;
+    background: black;
+    color: white;
+    float: left;
+    margin: 30px;
+    width: 150px;
+    text-align: center;
+    border: 2px solid white;
 }
 
 #images{
+    clear: both;
     margin: 0 auto;
-    width: 630px;
-    background: lightgrey;
+    width: 495px;
+    height: 120px;
+    background: black;
+    padding: 12px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border: 2px solid white;
+}
+
+#first-gem, #second-gem, #third-gem, #fourth-gem{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
 }

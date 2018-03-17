@@ -36,12 +36,12 @@ $("#first-gem").on("click", function(){
     playerScore = playerScore + gem1;
     $("#yourScore").text(playerScore);
     if (playerScore === targetNum){
-        alert("You win!");
+        alert("You win!  Want to play again?");
         wins ++;
         init();
     };
     if (playerScore > targetNum){
-        alert("You lose!");
+        alert("You lose!  Want to play again?");
         losses ++;
         init();
     };
@@ -51,12 +51,12 @@ $("#second-gem").on("click", function(){
     playerScore = playerScore + gem2;
     $("#yourScore").text(playerScore);
     if (playerScore === targetNum){
-        alert("You win!");
+        alert("You win!  Want to play again?");
         wins ++;
         init();
     };
     if (playerScore > targetNum){
-        alert("You lose!");
+        alert("You lose!  Want to play again?");
         losses ++;
         init();
     };
@@ -66,12 +66,12 @@ $("#third-gem").on("click", function(){
     playerScore = playerScore + gem3;
     $("#yourScore").text(playerScore);
     if (playerScore === targetNum){
-        alert("You win!");
+        alert("You win!  Want to play again?");
         wins ++;
         init();
     };
     if (playerScore > targetNum){
-        alert("You lose!");
+        alert("You lose!  Want to play again?");
         losses ++;
         init();
     };
@@ -81,12 +81,12 @@ $("#fourth-gem").on("click", function(){
     playerScore = playerScore + gem4;
     $("#yourScore").text(playerScore);
     if (playerScore === targetNum){
-        alert("You win!");
+        alert("You win!  Want to play again?");
         wins ++;
         init();
     };
     if (playerScore > targetNum){
-        alert("You lose!");
+        alert("You lose!  Want to play again?");
         losses ++;
         init();
     };
