@@ -23,12 +23,12 @@ var init = function(){
 };
 
 //Testing purposes
-init();
-console.log(gem1);
-console.log(gem2);
-console.log(gem3);
-console.log(gem4);
-console.log(targetNum);
+// init();
+// console.log(gem1);
+// console.log(gem2);
+// console.log(gem3);
+// console.log(gem4);
+// console.log(targetNum);
 
 
 $("#first-gem").on("click", function(){
