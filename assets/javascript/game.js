@@ -22,8 +22,9 @@ var init = function(){
     $("#target").text(targetNum);
 };
 
-//Testing purposes
-// init();
+init();
+
+// //Testing purposes
 // console.log(gem1);
 // console.log(gem2);
 // console.log(gem3);
